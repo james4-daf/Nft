@@ -1,0 +1,35 @@
+.main-image {
+  width: 98%;
+  border-radius: 10px;
+  /* padding: 10px; */
+}
+
+.author-image-border {
+  border-color: white;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  width: 30px;
+}
+
+.fullCard {
+  position: absolute;
+  width: 245px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 18px;
+  background-color: hsl(216, 50%, 16%);
+  font-family: Outfit;
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+}
+p {
+  font-size: 18px;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
