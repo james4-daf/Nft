@@ -15,12 +15,14 @@
 .fullCard {
   position: absolute;
   width: 245px;
-  border: 1px solid #ccc;
+
   border-radius: 5px;
   margin: 10px 5px;
   padding: 18px;
   background-color: hsl(216, 50%, 16%);
-  font-family: Outfit;
+}
+#thumbnail {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 h3 {
@@ -28,8 +30,24 @@ h3 {
 }
 p {
   font-size: 18px;
+  font-family: Outfit, sans-serif;
+  color: hsl(215, 51%, 70%);
+}
+.author-name {
+  color: hsl(0, 0%, 100%);
+}
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+.time-left {
+  color: hsl(215, 51%, 70%);
 }
 
 body {
   background-color: hsl(217, 54%, 11%);
+  font-family: Outfit, sans-serif;
+  margin: 15%;
+}
+.creation {
+  padding-top: 25px;
 }
